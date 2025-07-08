@@ -9,8 +9,33 @@ Social bots are becoming increasingly common in social networks, and their activ
 
 
 ## Dataset
-We use Cresci15 and Twibot-20 as our datasets. The user tweet topics and emotions extracted by ChatGPT have been uploaded to [Google Drive](https://drive.google.com/file/d/1vZWUYsE77zvkMTqC595aPEMyY2KVaSfo/view?usp=drive_link).
+We use Cresci15 and Twibot-20 as our datasets. The user tweet topics and emotions extracted by ChatGPT have been uploaded to [Google Drive](https://drive.google.com/file/d/1vZWUYsE77zvkMTqC595aPEMyY2KVaSfo/view?usp=drive_link). 
+The correspondence between topics, emotions content and ID is as follows
 
+```python
+dict_topic = {"none": 0,
+              "arts & culture": 1,
+              "business & finance": 2,
+              "careers": 3,
+              "entertainment": 4,
+              "fashion & beauty": 5,
+              "food": 6,
+              "gaming": 7,
+              "hobbies & interests": 8,
+              "movies & tv": 9,
+              "music": 10,
+              "news": 11,
+              "outdoors": 12,
+              "science": 13,
+              "sports": 14,
+              "technology": 15,
+              "travel": 16
+              }
+dict_emotion = {"positive": 1,
+                "negative": 2,
+                "neutral": 3
+                }
+```
 
 ## Code
 Now moved to [link](https://github.com/vvvvkoko/ETS-MM).
